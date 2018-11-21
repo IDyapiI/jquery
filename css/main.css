@@ -1,0 +1,94 @@
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background:url("../images/background1.JPG") 50% no-repeat fixed;
+    background-size: cover;
+    font: 14px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+    font-weight: 300;
+    color: #222;
+  }
+  
+
+  article {
+    position: absolute;
+    background: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  #article1 {
+    left: 130px;
+    top: 160px; 
+    width: 300px;
+    z-index: 1;
+  }
+  #article2 {
+    left: 440px;
+    top: 160px; 
+    width: 300px;
+    z-index: 1;
+  }
+  #article3 {
+    left: 750px;
+    top: 160px; 
+    width: 300px;
+    z-index: 1;
+  }
+  #article4 {
+    left: 130px;
+    top: 360px; 
+    width: 300px;
+    z-index: 1;
+  }
+  #article5 {
+    left: 440px;
+    top: 360px; 
+    width: 300px;
+    z-index: 1;
+  }
+  #article6 {
+    left: 750px;
+    top: 360px; 
+    width: 300px;
+    z-index: 1;
+  }
+  #article7 {
+    left: 130px;
+    top: 560px; 
+    width: 300px;
+    z-index: 1;
+  }
+  #article8 {
+    left: 440px;
+    top: 560px; 
+    width: 300px;
+    z-index: 1;
+  }
+  #article9 {
+    left: 750px;
+    top: 560px; 
+    width: 300px;
+    z-index: 1;
+  }
+  article .title {
+    padding: 8px;
+    background: rgba(235, 235, 235, 0.85);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  article .content {
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.66);
+  }
+  
+  

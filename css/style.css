@@ -1,0 +1,84 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background:url("../images/background1.JPG") 50% no-repeat fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login-signIn {
+  width: 400px;
+  margin: 16px auto;
+  margin-top: 250px;
+  font-size: 16px;
+
+}
+
+
+
+.login-signIn-header {
+  background: rgb(228, 85, 19);
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-signIn-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+
+.login-signIn p {
+  padding: 12px;
+}
+
+.login-signIn input , .login-signIn button {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+
+.login-signIn input[type="text"],
+.login-signIn input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: rgb(87, 86, 86);
+}
+
+.login-signIn input[type="text"]:focus,
+.login-signIn input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login-signIn input[type="submite"], .login-signIn button {
+  background:  rgb(228, 85, 19);
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-signIn button:hover {
+  background: rgb(175, 75, 8);
+}
+
+.login-signIn button:focus {
+  border-color: rgb(175, 75, 8);
+}
+#createAcc{
+
+    color: rgb(228, 85, 19);
+    text-decoration: none;
+    padding-left: 30% ;
+    cursor: pointer;
+}
