@@ -1,4 +1,4 @@
 # jquery
 eval jquery
 
-open login html page
+open login html file
